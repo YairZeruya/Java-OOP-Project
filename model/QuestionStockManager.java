@@ -119,21 +119,6 @@ public class QuestionStockManager implements Serializable, Cloneable {
 		o.close();
 	}
 
-	// sort for part 1
-
-//	public void testSort(int numOfQuestions) {
-//		int n = numOfQuestions;
-//		int i, IndMax;
-//		for (; n > 1; n--) {
-//			for (IndMax = 0, i = 1; i < n; i++) {
-//				if ((questions.get(IndMax).getText()).compareToIgnoreCase(questions.get(i).getText()) < 0)
-//					IndMax = i;
-//			}
-//			swap(questions, n - 1, IndMax);
-//		}
-//	}
-
-	// sort for part 2
 	public void testSort(int numOfQuestions) {
 		int n = numOfQuestions;
 		int i, IndMax;
